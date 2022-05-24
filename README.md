@@ -1,4 +1,4 @@
-# Burger-King
+#🍔 Burger-King
 A fully-responsive, Burger restaurant application that allows you to view, order, and consume your favorite burgers.
 
 # Build With
