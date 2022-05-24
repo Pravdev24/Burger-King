@@ -7,13 +7,7 @@
     <title>Burger King</title>
     <link rel="stylesheet" href="styles.css" />
 
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap"
-      rel="stylesheet"
-    />
+    
     <!-- FontAwesome CDN -->
     <script
       src="https://kit.fontawesome.com/75349716c8.js"
@@ -75,8 +69,9 @@
     </section>
 
     <section class="menu">
-     
+      <i class="menu-icon fa-solid fa-burger"></i>
         <h3>Try Our Fan Favorites</h3>
+        
 
         <div class="row">
           <div class="col-lg-4 ">
@@ -124,10 +119,8 @@
                 <p>Enter your burger order and then click the submit button.</p>
                 <br>
                 <form class="create-form">
-                    <div class="form-group">
-                        <input type="text" id="burgerName" name="burgerName">
-                        <button type="submit" class="button">Submit Order</button>
-                    </div>
+                  <input type="text" id="burgerName" name="burgerName">
+                  <button id="submit" type="submit" class="button">Submit Order</button>
                 </form>
             </div>
         </section>

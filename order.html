@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger King</title>
+    <script
+      src="https://kit.fontawesome.com/75349716c8.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-image: url("images/burger-background.jpg");
+      }
+      .container {
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 8% 5%;
+        text-align: center;
+        box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+        font-family: sans-serif;
+      }
+
+      .check-icon {
+        font-size: 3rem;
+        color: rgb(30, 135, 30);
+        padding: 10px;
+      }
+      button {
+        padding: 10px 25px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+        border: 2px solid #4caf50;
+      }
+
+      a {
+        text-decoration: none;
+        color: #4caf50;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your order has been received</h1>
+      <i class="check-icon fa-regular fa-circle-check"></i>
+      <h3>Thank you for your order</h3>
+      <h1 id="order-no"></h1>
+      <button>
+        <a href="https://pravdev24.github.io/BurgerKing/">Go Back</a>
+      </button>
+    </div>
+
+    <script>
+      const id = Math.floor(Math.random() * 8000);
+      console.log(id);
+      const orderNo = document.getElementById("order-no");
+      orderNo.innerText = "Your order ID is : #" + id;
+    </script>
+  </body>
+</html>

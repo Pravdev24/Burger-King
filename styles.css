@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,300&display=swap");
 body {
   margin: 0;
 }
@@ -5,7 +6,6 @@ body {
   margin: 0;
   width: 100%;
   height: 100vh;
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
     url("images/burger.jpg");
   background-size: cover;
@@ -26,7 +26,6 @@ body {
   color: #fff;
   font-size: 4rem;
   text-align: center;
-  font-family: "Poppins-Medium", sans-serif;
 }
 .intro {
   text-align: center;
@@ -40,7 +39,6 @@ body {
 
 .intro h3 {
   font-size: 3rem;
-
   margin-bottom: 90px;
 }
 .intro img {
@@ -48,16 +46,21 @@ body {
   margin-bottom: 20px;
 }
 p {
-  font-family: "Poppins-regular", sans-serif;
   font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Menu Section */
 .menu {
-  padding: 100px 0px;
+  padding: 40px 0 100px 0;
   margin: 50px;
   border-bottom: 1px solid black;
   text-align: center;
+}
+.menu-icon {
+  font-size: 4rem;
+  padding: 20px;
 }
 .menu h3 {
   font-size: 3rem;
@@ -83,7 +86,7 @@ p {
 
 .order {
   text-align: center;
-  padding: 70px 0;
+  padding: 70px 0 100px 0;
   margin: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -93,6 +96,7 @@ p {
 .order p {
   font-size: 1.3rem;
   margin-top: 20px;
+  padding: 10px;
 }
 #burgerName {
   margin: 10px;
@@ -121,11 +125,15 @@ p {
   background-color: #1f1f1f;
   color: #fff;
 }
+
+#footer p {
+  font-size: 12px;
+}
 .footer-icon {
-  color: red;
+  color: #ff4c68;
 }
 .footer-icon:hover {
-  font-size: x-large;
+  font-size: 14px;
 }
 .social-icon {
   padding: 8px;
